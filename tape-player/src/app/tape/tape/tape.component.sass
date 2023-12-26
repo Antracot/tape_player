@@ -8,7 +8,7 @@
     border-radius: 22px     
     width: 550px
     height: 350px
-    margin: 200px auto
+    margin: 20px auto
 
     #screw1
         top: 10px
@@ -35,40 +35,60 @@
         border-radius: 50%
         position: absolute
         .line
-            float: left
-            position: relative
+            position: inherit
             background-color: grey
             display: inline-block
-            box-shadow: 1px 1px 1px #4C4843
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
         .line1
             width: 2px
-            height: 40%
-            top: 32%
-            left: 45%
-            text-align: center
+            height: 45%
         .line2
-            width: 40%
+            width: 45%
             height: 2px
-            top: 46%
-            left: 21%
-    .mid_area
+    .cassette_body
         border: 2px solid lightgrey
         text-align: center
         width: 500px
         height: 210px
         display: block
         margin: 35px auto
-        border-radius: 5px
-        .text_place_wrapper
-            background-color: red
-            height: 35%
-            width: 100%
-            .line_for_text
-
-        .plastic_glass
-            border: 2px solid lightgrey
-            border-radius: 50px 
-            margin: auto
-            width: 250px
-            height: 33%
-        .lines_
+        line-height: 205px
+        border-radius: 10px
+        .sticker_body
+            border-radius: 25px
+            vertical-align: middle
+            width: 95%
+            height: 90%
+            background-color: lime
+            display: inline-block
+            overflow: hidden
+            .text_place_wrapper
+                display: block
+                background-color: red
+                height: 35%
+                width: 100%
+                .line_for_text
+                    margin-left: auto
+                    margin-right: auto
+                    display: block
+                    height: 15px
+                    border-bottom: 2px solid grey   
+                    // background-color: green
+                .line_long
+                    width: 95%
+                .line_short
+                    width: 90%
+            .wheel_plave_wrapper
+                width: 100%
+                background-color: blue 
+                height: 65% 
+                .plastic_glass
+                    display: none
+                    border: 2px solid lightgrey
+                    border-radius: 50px 
+                    margin: auto
+                    width: 250px
+                    height: 33%
+                // .lines_
